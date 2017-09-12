@@ -1,17 +1,21 @@
 {
   "name": "streaming-assignment",
   "version": "1.0.0",
+  "engines": {
+	"nodes": "7.1.0",
+	"npm": "3.10.x"
+  },
   "description": "Streaming Media Homework",
   "main": "./src/server.js",
   "scripts": {
-	"start": "node ./src/server.js",
-	"pretest": "eslint ./src --fix",
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
     "test": "echo \"Tests complete\""
   },
   "keywords": [
-	"NPM",
-	"Node",
-	"Introduction"
+    "NPM",
+    "Node",
+    "Introduction"
   ],
   "repository": {
     "type": "git",

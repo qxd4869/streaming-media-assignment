@@ -55,15 +55,15 @@ const loadFile = (request, response, filePath, contentType) => {
 
 
 const getParty = (request, response) => {
-  loadFile(request, response, '../client/party.mp4', 'video/mp4');	
+  loadFile(request, response, '../client/party.mp4', 'video/mp4');
 };
 
 const getBling = (request, response) => {
-  loadFile(request, response, '../client/bling.mp3', 'audio/mpeg');	
+  loadFile(request, response, '../client/bling.mp3', 'audio/mpeg');
 };
 
-const getBird = (requrest, response) => {
-	loadFile(request, response, '../client/bird.mp4', 'video/mp4')
+const getBird = (request, response) => {
+  loadFile(request, response, '../client/bird.mp4', 'video/mp4');
 };
 
 
