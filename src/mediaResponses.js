@@ -2,8 +2,8 @@ const fs = require('fs');
 const path = require('path');
 
 const getParty = (request, response) => {
-	loadFile(request, response, '../client/party.mp4', 'video/mp4');
-/*   const file = path.resolve(__dirname, '../client.party.mp4');
+/*   loadFile(request, response, '../client/party.mp4', 'video/mp4'); */
+  const file = path.resolve(__dirname, '../client.party.mp4');
 
   fs.stat(file, (err, stats) => {
     if (err) {
@@ -50,10 +50,10 @@ const getParty = (request, response) => {
     });
 
     return stream;
-  }); */
+  });
 };
 
-const loadFile = (request, response, filePath, contentType) => {
+/* const loadFile = (request, response, filePath, contentType) => {
   const file = path.resolve(__dirname, filePath);
 
   fs.stat(file, (err, stats) => {
@@ -101,8 +101,8 @@ const loadFile = (request, response, filePath, contentType) => {
     });
 
     return stream;
-  });	
-};
+  });
+}; */
 
 
 module.exports.getParty = getParty;
